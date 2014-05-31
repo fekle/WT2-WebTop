@@ -1,0 +1,176 @@
+html, body{
+	background: #ddd;
+}
+
+div#foto_wrapper{
+	padding: .5rem;
+	text-align: center;
+}
+
+img.thumb{
+	max-width: 16rem;
+	max-height: 12rem;
+	margin: .2rem;
+	border: 2px #fff solid;
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.4);
+	border-radius: 1px;
+	cursor: pointer;
+	background: #fff;
+	-webkit-transition: .2s all ease-in-out;
+	-moz-transition: .2s all ease-in-out;
+	-ms-transition: .2s all ease-in-out;
+	-o-transition: .2s all ease-in-out;
+	transition: .2s all ease-in-out;
+}
+
+img.edit_thumb{
+	max-width: 8rem;
+	max-height: 6rem;
+}
+
+img.thumb:hover{
+	-webkit-transform: scale(1.1,1.1);
+	-moz-transform: scale(1.1,1.1);
+	-ms-transform: scale(1.1,1.1);
+	-o-transform: scale(1.1,1.1);
+	transform: scale(1.1,1.1);
+}
+
+div#foto_app_header{
+	width: 100%;
+	height: 3rem;
+	text-align: center;
+	font-size: 2rem;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	background: #e68026;
+	
+	font-family: Lobster, sans-serif;
+	color: #fff;
+	font-weight: 100;
+	
+}
+
+div.foto_editbox{
+	background: #fff;
+	padding: .4rem;
+	border-radius: 2px;
+	display: inline-block;
+	margin: .2rem;
+	max-width: 50rem;
+	max-width: 10rem;
+	word-break: break-all;
+	word-wrap: break-word;
+	overflow: hidden;
+	vertical-align: middle;
+	valign: middle;
+}
+
+div.foto_editbox h2{
+	margin: 0;
+	padding: 0;
+	font-size: 1.4rem;
+	font-weight: 100;
+}
+
+a, .delete_foto, .rename_foto, .edit_foto, .edit_download{
+	margin-top: .5rem;
+	cursor: pointer;
+	color: #222;
+	text-decoration: none;
+}
+
+.delete_foto:hover, .rename_foto:hover, .edit_foto:hover, .edit_download:hover{
+	color: #e44;
+}
+
+div#foto_app_header .btn_left,.btn_right{
+	position: absolute;
+	top: .5rem;
+	text-decoration: none;
+	color: #ddd;
+}
+
+div#foto_app_header .btn_left{
+	left: .5rem;
+}
+
+div#foto_app_header .btn_right{
+	right: .5rem;
+}
+
+div#notofots{
+	margin-top: 2rem;
+	font-size: 1.5rem;
+}
+
+#dropzone{
+	display: block;
+	text-align: center;
+	width: 100%;
+	height: 30rem;
+	border: 3px #222 dashed;
+	border-radius: 1rem;
+	padding: 4rem;
+	font-size: 2rem;
+	margin-top: 2rem;
+}
+
+#editor_foto{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	text-align: center;
+	width: auto;
+	height: auto;
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.4);
+	max-height: 20rem;
+}
+
+#editor_toolbox{
+	text-align: center;
+	width: 100%;
+}
+
+.editor_button{
+	display: inline-block;
+	background: #fff;
+	border: 1px #222 solid;
+	color: #222;
+	border-radius: .2rem;
+	padding: .3rem;
+	padding-left: .5rem;
+	padding-right: .5rem;
+	margin: .4rem;
+	cursor: pointer;
+	-webkit-transition: .2s background ease;
+}
+
+.btn_1{
+	margin-right: -1.5px;
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.btn_2{
+	margin-left: -1.5px;
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+	border-left: none;
+}
+
+.btn_3{
+	margin-left: -1.5px;
+	margin-right: -1.5px;
+	border-radius: 0;
+	border-left: none;
+}
+
+.editor_button:hover{
+	background: #222;
+	color: #fff;
+}
+
+
+.crop_input{
+	width: 2rem;
+}

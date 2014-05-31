@@ -1,0 +1,87 @@
+html, body{
+	font-family: Helvetica Neue, Helvetica, Calibri, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+
+	padding: 0;
+}
+
+html{
+	height: 100%;
+
+	background: url("http://lorempixel.com/1920/1200/nature/") #ddd;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+body{
+	min-height: 100%;
+	padding-top: 10%;
+
+	background: transparent;
+}
+
+.header{
+	min-height: 10rem;
+	margin-bottom: 1rem;
+	padding: 2rem;
+
+	color: #222;
+	border-top: .2rem #ddd solid;
+	border-bottom: .2rem #ddd solid;
+	background: #fff;
+}
+
+.header a{
+	color: #222;
+}
+
+.box{
+	overflow: hidden;
+
+	margin-bottom: 1rem;
+	padding: .5rem;
+
+	word-wrap: break-word;
+
+	opacity: .8;
+	border: .5rem #eee solid;
+	border-radius: .2rem;
+	background: #fff;
+}
+
+.logo{
+	width: 100%;
+	height: auto;
+}
+
+
+h1, h2{
+	font-weight: 200;
+
+	margin: 0;
+	margin-bottom: 1rem;
+	padding: 0;
+}
+
+.bottom{
+	margin-top: 1rem;
+}
+
+h1{
+	font-size: 4rem;
+}
+
+h2{
+	font-size: 2rem;
+}
+
+.infos{
+	margin-top: 1rem;
+}
+
+select{
+	border: none;
+	background: #fff;
+}

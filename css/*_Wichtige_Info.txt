@@ -1,0 +1,3 @@
+Wir haben SCSS/SASS (http://sass-lang.com/) verwendet, welches zu "normalen" css kompiliert wird. Bitte in den Ordner "scss" schauen :)
+
+Danke.

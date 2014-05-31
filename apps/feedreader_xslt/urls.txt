@@ -1,0 +1,5 @@
+http://www.theverge.com/rss/frontpage
+http://derStandard.at/?page=rss&ressort=Web
+http://rss.orf.at/science.xml
+http://heise.de.feedsportal.com/c/35207/f/653902/index.rss
+http://feeds.gawker.com/gizmodo/full
